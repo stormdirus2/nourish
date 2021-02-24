@@ -3,42 +3,42 @@
 		{
 			"name": "carbohydrates",
 			"default_value": 0.8,
-			"decay": 0.12,
+			"decay": 12,
 			"multiplier": 1.0,
 			"color": "d9b05f"
 		},
 		{
 			"name": "fruit",
 			"default_value": 0.8,
-			"decay": 0.08,
+			"decay": 8,
 			"multiplier": 1.0,
 			"color": "5f9cd9"
 		},
 		{
 			"name": "vegetables",
 			"default_value": 0.8,
-			"decay": 0.11,
+			"decay": 11,
 			"multiplier": 1.0,
 			"color": "63db60"
 		},
 		{
 			"name": "protein",
 			"default_value": 0.8,
-			"decay": 0.08,
+			"decay": 8,
 			"multiplier": 1.0,
 			"color": "db6460"
 		},
 		{
 			"name": "fats",
 			"default_value": 0.7,
-			"decay": 0.05,
+			"decay": 5,
 			"multiplier": 2.0,
 			"color": "8360db"
 		},
 		{
 			"name": "sweets",
 			"default_value": 0.4,
-			"decay": 0.1,
+			"decay": 1,
 			"multiplier": 2.0,
 			"color": "db60ae",
 			"secondary": true,
@@ -56,7 +56,7 @@
 						"protein",
 						"fats"
 					],
-					"below": 0.4
+					"below": 0.5
 				}
 			],
 			"status_effects": [
@@ -80,7 +80,7 @@
 						"protein",
 						"fats"
 					],
-					"below": 0.2
+					"below": 0.3
 				}
 			],
 			"status_effects": [
